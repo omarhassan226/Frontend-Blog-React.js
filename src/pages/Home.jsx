@@ -122,7 +122,7 @@ const Home = () => {
           {/* Display the image */}
           {post.image &&
             <img
-              src={`../../React-Backend-project/public/${post.image}`}
+              src={`http://localhost:3000/${post.image}`}
               alt="Post Image"
               className="rounded mt-4  mx-auto"
               style={{ maxWidth: "100%", maxHeight: "300px" }}
